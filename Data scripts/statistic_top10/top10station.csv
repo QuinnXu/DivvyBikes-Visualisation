@@ -1,0 +1,10 @@
+id,name,city,latitude,longitude,dpcapacity,online_date,totaltrips
+35,Streeter Dr & Grand Ave,Chicago,41.892278,-87.612043,47,6/22/2013 21:12:15,65574
+76,Lake Shore Dr & Monroe St,Chicago,41.880958,-87.616743,39,6/26/2013 15:26:11,36722
+268,Lake Shore Dr & North Blvd,Chicago,41.911722,-87.626804,39,9/5/2013 09:48:05,33600
+177,Theater on the Lake,Chicago ,41.926277,-87.630834,23,7/19/2013 11:09:45,30093
+91,Clinton St & Washington Blvd,Chicago,41.88338,-87.64117,31,6/26/2013 23:39:44,26960
+77,Clinton St & Madison St,Chicago,41.882242,-87.641066,31,6/26/2013 15:27:12,25987
+85,Michigan Ave & Oak St,Chicago,41.90096039,-87.62377664,23,6/26/2013 19:18:12,25880
+90,Millennium Park,Chicago,41.8810317,-87.62408432,35,6/26/2013 19:51:57,24938
+192,Canal St & Adams St,Chicago,41.879255,-87.639904,47,8/6/2013 13:27:29,23190

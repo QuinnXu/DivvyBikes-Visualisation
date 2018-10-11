@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+
+    <div id="container" style="min-width: 310px; max-width: 800px; height: 400px; margin: 0 auto"></div>
+<style>
+</style>
+</head>
+<body>
+<script>
+// Data gathered from http://populationpyramid.net/germany/2015/
+
+// Age categories
+var categories =  ['3.0h-3.5h', '3.5h-4.0h', '4.0h-4.5h', '4.5h-5.0h', '5.0h-5.5h', '5.5h-6.0h', '6.0h-6.5h', '6.5h-7.0h', '7.0h-7.5h', '7.5h-8.0h', '8.0h-8.5h', '8.5h-9.0h', '9.0h-9.5h', '9.5h-10.0h', '10.0h-10.5h', '10.5h-11.0h', '11.0h-11.5h', '11.5h-12.0h', '>3.0h']
+;
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'bar'
+    },
+    title: {
+        text: 'Population pyramid for Germany, 2018'
+    },
+    subtitle: {
+        text: 'Source: <a href="http://populationpyramid.net/germany/2018/">Population Pyramids of the World from 1950 to 2100</a>'
+    },
+    xAxis: [{
+        categories: categories,
+        reversed: false,
+        labels: {
+            step: 1
+        }
+    }, { // mirror axis on right side
+        opposite: true,
+        reversed: false,
+        categories: categories,
+        linkedTo: 0,
+        labels: {
+            step: 1
+        }
+    }],
+    yAxis: {
+        title: {
+            text: null
+        },
+        labels: {
+            formatter: function () {
+                return Math.abs(this.value) + '%';
+            }
+        }
+    },
+
+    plotOptions: {
+        series: {
+            stacking: 'normal'
+        }
+    },
+
+    tooltip: {
+        formatter: function () {
+            return '<b>' + this.series.name + ', age ' + this.point.category + '</b><br/>' +
+                'Population: ' + Highcharts.numberFormat(Math.abs(this.point.y), 0);
+        }
+    },
+
+    series: [{
+        name: 'Subscriber',
+        data: [-0.01, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.0, -0.01]
+
+
+    }, {
+        name: 'Customer',
+        data: [0.22, 0.14, 0.07, 0.06, 0.04, 0.03, 0.02, 0.02, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.0, 0.01, 0.0, 0.09]
+    }]
+});
+
+
+</script>
+</body>
+</html>

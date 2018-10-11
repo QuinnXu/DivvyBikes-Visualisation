@@ -1,0 +1,2 @@
+For the sake of size limitation, plz download datasource at
+https://s3.amazonaws.com/divvy-data/tripdata/Divvy_Trips_2017_Q3Q4.zip

@@ -1,0 +1,83 @@
+[
+        {
+            "capacity": 47,
+            "city": "Chicago",
+            "lat": 41.892278,
+            "lon": -87.612043,
+            "name": "Streeter Dr & Grand Ave",
+            "online time": "6/22/2013 21:12:15",
+            "trips": 65574
+        },
+        {
+            "capacity": 39,
+            "city": "Chicago",
+            "lat": 41.880958,
+            "lon": -87.616743,
+            "name": "Lake Shore Dr & Monroe St",
+            "online time": "6/26/2013 15:26:11",
+            "trips": 36722
+        },
+        {
+            "capacity": 39,
+            "city": "Chicago",
+            "lat": 41.911722,
+            "lon": -87.626804,
+            "name": "Lake Shore Dr & North Blvd",
+            "online time": "9/5/2013 09:48:05",
+            "trips": 33600
+        },
+        {
+            "capacity": 23,
+            "city": "Chicago ",
+            "lat": 41.926277,
+            "lon": -87.630834,
+            "name": "Theater on the Lake",
+            "online time": "7/19/2013 11:09:45",
+            "trips": 30093
+        },
+        {
+            "capacity": 31,
+            "city": "Chicago",
+            "lat": 41.88338,
+            "lon": -87.64117,
+            "name": "Clinton St & Washington Blvd",
+            "online time": "6/26/2013 23:39:44",
+            "trips": 26960
+        },
+        {
+            "capacity": 31,
+            "city": "Chicago",
+            "lat": 41.882242,
+            "lon": -87.641066,
+            "name": "Clinton St & Madison St",
+            "online time": "6/26/2013 15:27:12",
+            "trips": 25987
+        },
+        {
+            "capacity": 23,
+            "city": "Chicago",
+            "lat": 41.90096039,
+            "lon": -87.62377664,
+            "name": "Michigan Ave & Oak St",
+            "online time": "6/26/2013 19:18:12",
+            "trips": 25880
+        },
+        {
+            "capacity": 35,
+            "city": "Chicago",
+            "lat": 41.8810317,
+            "lon": -87.62408432,
+            "name": "Millennium Park",
+            "online time": "6/26/2013 19:51:57",
+            "trips": 24938
+        },
+        {
+            "capacity": 47,
+            "city": "Chicago",
+            "lat": 41.879255,
+            "lon": -87.639904,
+            "name": "Canal St & Adams St",
+            "online time": "8/6/2013 13:27:29",
+            "trips": 23190
+        }
+]
